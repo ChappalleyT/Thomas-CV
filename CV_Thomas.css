@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Bubblegum";
+  src: url("Bubblegum.ttf");
+  }
+  
+@font-face {
+  font-family: "Butterfly";
+  src: url("Butterfly.otf");
+  }
+  
+
+#liseret{
+	float: left;
+	width: 100px;
+	height: 600px;
+	background-image: url("liseret.png");
+	background-repeat: repeat-y;
+	margin : 0px 20px 0px 0px;
+	height : 550px;
+	margin-left: 5px;
+	
+}
+
+
+#section{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: 5px;
+	background: rgba(178,240,224, 0.9);
+	padding-right: 10px;
+	
+}
+
+@media (max-width: 1024px){
+
+	#liseret{
+		display: none;
+	}
+	
+	body{
+		width: 100%;
+	}
+	
+	
+
+}
+
+
+
+body {
+    background-image: url("background.jpg");
+	background-repeat: repeat;
+	width : 100%;
+	color : #007A5C;
+}
+
+
+
+h2 {
+		text-decoration: underline;
+		font-family: "Bubblegum";
+		font-size : 1.5 em;
+		padding-left: 22px;
+		color : #004747;
+}
+
+h3 {
+		font-family: "Bubblegum";
+		font-size : 1.2em;
+		color : #004747;
+}
+
+
+h1, p {
+	
+	text-align: center;
+}
+
+h1 {
+	font-family: "Bubblegum";
+	color : #004747;
+}
+
+p, li {
+	font-family: "Butterfly";
+	color : #007A5C;
+}
+
+
+
+a {
+	color : #007A5C;
+	float: right;
+	margin-top: -6em;
+	padding : 2px;
+	
+}
+
+img {
+	border: 2;
+
+}
+
+.profilpic {
+	margin-top: 40px;
+	margin-right: 20px;
+	height: 200px;
+	z-index: -1;
+	float: right;
+ }
